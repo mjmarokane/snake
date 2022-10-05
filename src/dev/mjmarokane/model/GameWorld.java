@@ -22,7 +22,7 @@ public class GameWorld implements IDrawable
         food = new Food();
         placeNewFood();
         this.gameOver = false;
-        this.score = 110;
+        this.score = 0;
     }
 
     public void checkEndState()
