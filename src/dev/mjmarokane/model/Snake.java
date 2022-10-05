@@ -13,7 +13,7 @@ public class Snake implements IDrawable
 
     public Snake(int headX, int headY, int speed)
     {
-        for (int i = 0; i < 100; i++)
+        for (int i = 0; i < 10; i++)
         {
             cells.add(new Cell(headX + i, headY));
         }
